@@ -13,42 +13,11 @@ const CAP_LIST = [
     capNombre: 'Cap1',
     capDesc: 'primer Capitulo'
   },
-  {
-    capTemporada: 1,
-    capNumero: 2,
-    capNombre: 'Cap2',
-    capDesc: 'segundo Capitulo'
-  },
-  {
-    capTemporada: 1,
-    capNumero: 3,
-    capNombre: 'Cap3',
-    capDesc: 'tercer Capitulo'
-  },
-  {
-    capTemporada: 1,
-    capNumero: 4,
-    capNombre: 'Cap4',
-    capDesc: 'cuarto Capitulo'
-  },
-  {
-    capTemporada: 1,
-    capNumero: 5,
-    capNombre: 'Cap5',
-    capDesc: 'quinto Capitulo'
-  },
-  {
-    capTemporada: 1,
-    capNumero: 6,
-    capNombre: 'Cap6',
-    capDesc: 'sexto Capitulo'
-  }
 ]
 
 export default function CapituloTemporadaScreen() {
 
     const [idTemp, setIdtemp] = useState(0);
-    const [capitulo, setCapitulo] = useState({ nombre: '', desc: '', temp: 0, cap: 0});
     const [capitulos, setCapitulos] = useState(CAP_LIST)
 
     
